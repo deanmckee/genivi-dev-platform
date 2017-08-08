@@ -18,6 +18,7 @@ function setupGitSubmodules() {
         "dragonboard-410c"
         "koelsch"
         "minnowboard"
+        "nitrogen6x-lite"
         "porter"
         "qemux86-64"
         "r-car-m3-starter-kit"
@@ -27,6 +28,7 @@ function setupGitSubmodules() {
     local supported=(
         "dragonboard-410c"
         "minnowboard"
+        "nitrogen6x-lite"        
         "qemux86-64"
         "r-car-m3-starter-kit"
         "raspberrypi2"
@@ -86,6 +88,7 @@ function setupGitSubmodules() {
     declare -A bsparr
     bsparr["qemux86-64"]=""
     bsparr["minnowboard"]="meta-intel"
+    bsparr["nitrogen6x-lite"]="meta-freescale meta-freescale-3rdparty"
     bsparr["raspberrypi2"]="meta-raspberrypi"
     bsparr["raspberrypi3"]="meta-raspberrypi"
     bsparr["koelsch"]="meta-renesas"
