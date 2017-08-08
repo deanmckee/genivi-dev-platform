@@ -44,11 +44,11 @@
 [submodule "meta-linaro"]
 	path = meta-linaro
 	url = https://git.linaro.org/openembedded/meta-linaro.git
-[submodule "meta-freescale"]
-	path = meta-freescale
-	url = https://github.com/Freescale/meta-freescale
-	branch = morty
 [submodule "meta-freescale-3rdparty"]
 	path = meta-freescale-3rdparty
 	url = https://github.com/Freescale/meta-freescale-3rdparty
+	branch = morty
+[submodule "meta-freescale"]
+	path = meta-freescale
+	url = https://github.com/Freescale/meta-freescale
 	branch = morty
