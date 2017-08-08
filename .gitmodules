@@ -52,3 +52,7 @@
 	path = meta-freescale
 	url = https://github.com/Freescale/meta-freescale
 	branch = morty
+[submodule "meta-boundary"]
+	path = meta-boundary
+	url = https://github.com/boundarydevices/meta-boundary
+	branch = morty
